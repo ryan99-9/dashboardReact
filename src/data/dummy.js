@@ -21,7 +21,6 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -120,6 +119,7 @@ export const EditorData = () => (
     </h3>
   </div>
 );
+
 const customerGridImage = (props) => (
   <div className="image flex gap-4">
     <img
@@ -398,7 +398,7 @@ export const customersGrid = [
     template: customerGridImage,
     textAlign: 'Center' },
   { field: 'ProjectName',
-    headerText: 'Project Name',
+    headerText: 'Nama Project',
     width: '150',
     textAlign: 'Center' },
   { field: 'Status',
